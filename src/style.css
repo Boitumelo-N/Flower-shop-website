@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: fuchsia;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #333;
+}
+section {
+  padding: 20px;
+  text-align: center;
+}
+footer {
+  background-color: gold;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+body {
+  background-image: url("27807.jpg");
+}
+body {
+  .Rose1 {
+    float: left;
+    width: 50%;
+  }
+  .Logo {
+    float: left;
+  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+.img {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+header {
+  background-color: rgb(165, 148, 165);
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #2136;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #333;
+}
+section {
+  padding: 20px;
+  text-align: center;
+}
+footer {
+  background-color: gold;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
