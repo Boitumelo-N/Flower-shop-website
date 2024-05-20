@@ -11,28 +11,73 @@ header {
 }
 
 .Logo {
-    float: left;
-    border-radius: 80px;
-    width: 300px;
-    height: 300px;
-    
+  float: left;
+  border-radius: 80px;
+  width: 300px;
+  height: 300px;
 }
 
-h1{
+h1 {
   text-align: center;
-  font-family:  "Dancing Script", cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 80px;
+}
+
+.Rose1 {
+  width: 350px;
+  height: 350px;
 }
 
 nav {
   text-align: center;
   margin-bottom: 20px;
+  padding: 5px;
+  border: 2px blueviolet;
 }
 nav a {
   text-decoration: none;
   margin: 0 10px;
-  color: #333;
+  color: #9b0e3d;
+  font-size: 30px;
 }
+
+.sub-heading {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: left;
+  padding: 0 auto;
+  margin: 60px;
+  justify-content: center;
+  position: absolute;
+  top: 240px;
+  right: 240px;
+  width: 25%;
+  font-size: 20px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+}
+
+.about-us {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
+
+.intro {
+  font-family: "fantasy";
+  font-size: 25px;
+}
+
+.products {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
+
+.contact-us {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
+
 section {
   padding: 20px;
   text-align: center;
@@ -48,21 +93,8 @@ footer {
 }
 
 body {
- 
 }
-  
-.Rose1 { 
-    float: left;
-    width: 50%;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  
-  }
-  
-}
+
 .column {
   float: left;
   width: 33.33%;
@@ -79,23 +111,12 @@ header {
   text-align: center;
 }
 
-nav {
-  text-align: center;
-  margin-bottom: 20px;
-  background-color: #2136;
-}
-
-nav a {
-  text-decoration: none;
-  margin: 0 10px;
-  color: #333;
-}
 section {
   padding: 20px;
   text-align: center;
 }
 footer {
-  background-color: gold;
+  background-color: blueviolet;
   color: #fff;
   padding: 10px 0;
   text-align: center;
