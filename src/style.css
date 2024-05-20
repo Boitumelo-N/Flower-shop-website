@@ -2,6 +2,14 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background: url("https://media.istockphoto.com/id/103332752/photo/close-up-of-dew-droplets-on-pink-rose.jpg?s=612x612&w=0&k=20&c=dfa7cKJ8s7cvH4HLXKdKd0DhgfSI066bQ27tP7BIgXc=")
+    no-repeat center center fixed;
+  background-size: 1300px 1300px;
+}
+
+.container {
+  padding: 20px;
+  margin: 10px;
 }
 
 header {
@@ -24,8 +32,8 @@ h1 {
 }
 
 .Rose1 {
-  width: 350px;
-  height: 350px;
+  width: 340px;
+  height: 340px;
 }
 
 nav {
@@ -37,8 +45,9 @@ nav {
 nav a {
   text-decoration: none;
   margin: 0 10px;
-  color: #9b0e3d;
+  color: black;
   font-size: 30px;
+  font-weight: bold;
 }
 
 .sub-heading {
@@ -78,6 +87,26 @@ nav a {
   font-size: 30px;
 }
 
+a i.fab.fa-instagram {
+  color: #f10755;
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+a i.fab.fa-instagram:hover {
+  color: #2c1522;
+}
+
+a i.fab.fa-whatsapp {
+  color: #25d366; /* WhatsApp's brand color */
+  font-size: 24px; /* Adjust the size as needed */
+  vertical-align: middle; /* Aligns the icon with the text */
+}
+
+a i.fab.fa-whatsapp:hover {
+  color: #128c7e; /* Slightly different color on hover */
+}
+
 section {
   padding: 20px;
   text-align: center;
@@ -90,9 +119,6 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-}
-
-body {
 }
 
 .column {
