@@ -196,3 +196,71 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+  .sub-heading {
+    font-size: 18px;
+    padding: 20px 0;
+  }
+
+  .Logo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .Rose1,
+  .Rose2,
+  .Rose3,
+  .Rose4,
+  .Rose5,
+  .Rose6,
+  .Rose7,
+  .price,
+  .selection1,
+  .selection2 {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+  }
+
+  .container,
+  .header,
+  .footer {
+    padding: 10px;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .sub-heading {
+    font-size: 16px;
+    padding: 40px 0;
+  }
+
+  .Logo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .Rose1,
+  .Rose2,
+  .Rose3,
+  .Rose4,
+  .Rose5,
+  .Rose6,
+  .Rose7,
+  .price,
+  .selection1,
+  .selection2 {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+  }
+
+  .container,
+  .header,
+  .footer {
+    padding: 20px;
+    margin: 10px;
+  }
+}
